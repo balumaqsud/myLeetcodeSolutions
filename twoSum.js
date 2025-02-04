@@ -29,7 +29,7 @@ var twoSum = function (nums, target) {
 };
 
 //second way! but slower is using inner loop!
-var twoSum = function (nums, target) {
+var twoSum2 = function (nums, target) {
   let n = nums.length;
   for (let i = 0; i < n; i++) {
     for (let j = i + 1; j < n; j++) {
