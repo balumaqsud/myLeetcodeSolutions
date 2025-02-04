@@ -39,5 +39,4 @@ var twoSum = function (nums, target) {
     }
   }
 };
-
-//
+// time complexity is slower
