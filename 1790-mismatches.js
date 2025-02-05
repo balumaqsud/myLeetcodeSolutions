@@ -14,9 +14,13 @@ var areAlmostEqual = function (s1, s2) {
     if (mismatches > 2) return false;
   }
   // 2 pairs and the are same chars to each other -> true
-  if (mismatch[0] === mismatch[3] && mismatch[1] === mismatch[2]) {
+  if (
+    mismatch.length === 4 &&
+    mismatch[0] === mismatch[3] &&
+    mismatch[1] === mismatch[2]
+  ) {
     return true;
-  }
+  } else return false;
 
   console.log(mismatches);
   console.log(mismatch);
