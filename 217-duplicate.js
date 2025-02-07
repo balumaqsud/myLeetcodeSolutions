@@ -12,3 +12,15 @@ var containsDuplicate = function (nums) {
   }
   return false;
 };
+
+/// new method -> sort() and check if first and second elements are the same
+//[ 1, 1, 2, 3 ]
+nums.sort((a, b) => {
+  return b - a;
+}); //[3, 2, 1, 1]
+for (let i = 0; i < nums.length; i++) {
+  if (i > 0 && nums[i - 1] === nums[i]) {
+    return true;
+  }
+}
+return false;
