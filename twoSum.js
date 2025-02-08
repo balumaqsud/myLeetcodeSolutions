@@ -40,7 +40,7 @@ var twoSum2 = function (nums, target) {
   }
 };
 // time complexity is slower
-// using another new Map()
+// using another new Map() faster with 1ms, top
 var twoSum = function (nums, target) {
   const map = new Map();
   for (let i = 0; i < nums.length; i++) {
