@@ -1,4 +1,4 @@
-//maping elements of s
+//maping elements of s, seeing if we have seen it before, seen return it, else see more
 var repeatedCharacter = function (s) {
   const memory = {};
   for (let i = 0; i < s.length; i++) {
