@@ -1,4 +1,4 @@
-// this one is hard,
+// this one is wrong I should do it again!
 // var firstUniqChar = function (s) {
 //   const map = new Map();
 //   for (let i = 0; i < s.length; i++) {
