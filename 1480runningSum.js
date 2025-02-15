@@ -8,3 +8,5 @@ var runningSum = function (nums) {
   }
   return res;
 };
+
+//second approach
