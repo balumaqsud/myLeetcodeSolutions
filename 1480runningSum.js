@@ -10,3 +10,13 @@ var runningSum = function (nums) {
 };
 
 //second approach
+for (let i = 1; i < nums.length; i++) {
+  nums[i] = nums[i - 1] + nums[i];
+}
+return nums;
+
+// or
+for (let i = 1; i < nums.length; i++) {
+  nums[i] += nums[i - 1];
+}
+return nums;
