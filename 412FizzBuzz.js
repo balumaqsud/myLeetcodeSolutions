@@ -13,3 +13,22 @@ var fizzBuzz = function (n) {
   }
   return list;
 };
+
+// second approach;
+var fizzBuzz = function (n) {
+  let list = [];
+  for (let i = 1; i <= n; i++) {
+    let currStr = "";
+    if (i % 3 === 0) {
+      currStr += "Fizz";
+    }
+    if (i % 5 === 0) {
+      currStr += "Buzz";
+    }
+    if (currStr == "") {
+      currStr += i.toString();
+    }
+    list.push(currStr);
+  }
+  return list;
+};
